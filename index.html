@@ -1,1 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Future Mindset | Learn. Adapt. Build.</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #07111f;
+  color: white;
+}
+header {
+  padding: 25px 8%;
+  background: #101f33;
+  text-align: center;
+}
+header h1 { color: #42d9ff; }
+nav a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  padding: 90px 20px;
+  background: linear-gradient(135deg,#102d4b,#07111f);
+}
+.hero h2 { font-size: 42px; }
+.hero span { color: #42d9ff; }
+.hero p {
+  max-width: 600px;
+  margin: 20px auto;
+  line-height: 1.7;
+}
+button {
+  background: #42d9ff;
+  border: 0;
+  padding: 14px 25px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+section {
+  padding: 55px 8%;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.card {
+  background: #14263d;
+  padding: 25px;
+  border-radius: 12px;
+  width: 260px;
+}
+.card h3 { color: #42d9ff; }
+footer {
+  padding: 25px;
+  text-align: center;
+  background: #101f33;
+}
+</style>
+</head>
+<body>
 
+<header>
+<h1>FUTURE MINDSET</h1>
+<nav>
+<a href="#about">About</a>
+<a href="#mission">Our Mission</a>
+<a href="#learn">Learn</a>
+</nav>
+</header>
+
+<div class="hero">
+<h2>The Future Is <span>Being Built Today.</span></h2>
+<p>Understand technology. Think beyond today. Learn new skills. Adapt to change. Build a better future.</p>
+<button onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})">Explore the Future</button>
+</div>
+
+<section id="about">
+<h2>Welcome to Future Mindset</h2>
+<p>We help young people understand the changing world and discover how knowledge, creativity and technology can solve real problems.</p>
+</section>
+
+<section id="mission">
+<h2>Our Mission</h2>
+<div class="cards">
+<div class="card">
+<h3>LEARN</h3>
+<p>Discover new knowledge, skills and technology.</p>
+</div>
+<div class="card">
+<h3>ADAPT</h3>
+<p>Prepare your mind for change and new opportunities.</p>
+</div>
+<div class="card">
+<h3>BUILD</h3>
+<p>Turn ideas into solutions that improve lives.</p>
+</div>
+</div>
+</section>
+
+<section id="learn">
+<h2>Think Beyond Today</h2>
+<p>The future belongs to people who are ready to learn, question, create and take action.</p>
+</section>
+
+<footer>
+<p>FUTURE MINDSET</p>
+<p>Learn. Adapt. Build.</p>
+</footer>
+
+</body>
+</html>
