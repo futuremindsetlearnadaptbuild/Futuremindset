@@ -292,11 +292,11 @@ footer {
   <p>© 2026 Future Mindset. Learn. Adapt. Build.</p>
   <p>Think beyond today. Build for tomorrow.</p>
 </footer>
-
-</body>
-</html>
 <script>
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("./service-worker.js");
+  navigator.serviceWorker.register("./service-worker.js")
+    .catch(error => console.log("Service Worker:", error));
 }
 </script>
+</body>
+</html>
