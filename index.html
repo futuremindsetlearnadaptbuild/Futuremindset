@@ -1,8 +1,206 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#07111f">
-<link rel="manifest" href="./manifest.json">
 <title>Future Mindset | Learn. Adapt. Build.</title>
+<meta name="description" content="Learn about technology, AI, future skills and innovation. Learn. Adapt. Build.">
+<link rel="manifest" href="./manifest.json">
+<link rel="icon" href="./icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="./icon-192.png">
+
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: Arial, sans-serif;
+  background: #07111f;
+  color: #fff;
+  line-height: 1.7;
+}
+header {
+  background: #101f33;
+  padding: 20px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.logo { color: #42d9ff; font-size: 23px; font-weight: bold; }
+nav { display: flex; flex-wrap: wrap; gap: 18px; }
+nav a { color: white; text-decoration: none; font-size: 14px; }
+nav a:hover { color: #42d9ff; }
+.hero {
+  text-align: center;
+  padding: 100px 8%;
+  background: linear-gradient(135deg, #102943, #07111f);
+}
+.hero h1 {
+  font-size: clamp(35px, 7vw, 58px);
+  color: #42d9ff;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+.hero p {
+  max-width: 680px;
+  margin: 0 auto 30px;
+  color: #d4e2ef;
+  font-size: 18px;
+}
+.btn {
+  display: inline-block;
+  background: #42d9ff;
+  color: #07111f;
+  padding: 13px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+section { padding: 70px 8%; }
+.section-title {
+  text-align: center;
+  color: #42d9ff;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.section-intro {
+  text-align: center;
+  color: #c1cedd;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 22px;
+}
+.card {
+  background: #12243a;
+  border: 1px solid #243d57;
+  padding: 27px;
+  border-radius: 12px;
+}
+.card h3 { color: #42d9ff; margin-bottom: 12px; }
+.card p { color: #c1cedd; }
+.about { background: #101f33; text-align: center; }
+.about p {
+  max-width: 780px;
+  margin: 15px auto;
+  color: #d4e2ef;
+}
+.mission { text-align: center; }
+.mission h2 { color: #42d9ff; margin-bottom: 15px; }
+.mission p {
+  max-width: 750px;
+  margin: auto;
+  color: #d4e2ef;
+}
+.join { background: #102943; text-align: center; }
+.join h2 {
+  color: #42d9ff;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.join p { color: #d4e2ef; margin-bottom: 25px; }
+footer {
+  background: #050b13;
+  text-align: center;
+  padding: 25px;
+  color: #9aabba;
+  font-size: 13px;
+}
+@media (max-width: 600px) {
+  header { justify-content: center; }
+  nav { justify-content: center; gap: 13px; }
+  .hero { padding: 75px 6%; }
+  section { padding: 55px 6%; }
+}
+</style>
+</head>
+
+<body>
+<header>
+  <div class="logo">FUTURE MINDSET</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#mission">Our Mission</a>
+    <a href="#learn">Learn</a>
+    <a href="#ideas">Ideas</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <h1>The Future Is Being Built Today.</h1>
+  <p>Understand technology. Think beyond today. Learn new skills. Adapt to change. Build a better future.</p>
+  <a class="btn" href="#learn">Explore the Future</a>
+</section>
+
+<section class="about" id="about">
+  <h2 class="section-title">About Future Mindset</h2>
+  <p>The world is changing. Technology is creating new opportunities and new challenges. We help young people understand these changes, think clearly and prepare for tomorrow.</p>
+</section>
+
+<section class="mission" id="mission">
+  <h2>Our Mission</h2>
+  <p>To inspire a generation that does not only watch the future happen, but learns, creates and builds solutions that improve lives and communities.</p>
+</section>
+
+<section id="learn">
+  <h2 class="section-title">Explore What You Can Learn</h2>
+  <p class="section-intro">Knowledge gives us the power to understand change and create new possibilities.</p>
+
+  <div class="cards">
+    <div class="card">
+      <h3>Technology & Innovation</h3>
+      <p>Discover new inventions and understand how technology is changing our world.</p>
+    </div>
+    <div class="card">
+      <h3>Artificial Intelligence</h3>
+      <p>Learn what AI is, how it works and how people can use it responsibly.</p>
+    </div>
+    <div class="card">
+      <h3>Future Skills</h3>
+      <p>Explore useful skills that can prepare you for tomorrow's opportunities.</p>
+    </div>
+    <div class="card">
+      <h3>Future News</h3>
+      <p>Understand discoveries, ideas and changes shaping our world.</p>
+    </div>
+    <div class="card">
+      <h3>Think & Create</h3>
+      <p>Question ideas, develop creativity and find solutions to real problems.</p>
+    </div>
+    <div class="card">
+      <h3>Young Africans, Big Ideas</h3>
+      <p>Discover how African creativity and innovation can help build a better future.</p>
+    </div>
+  </div>
+</section>
+
+<section class="join" id="ideas">
+  <h2>Your Future Starts With What You Learn Today.</h2>
+  <p>Stay curious. Ask questions. Think differently. Create solutions.</p>
+  <a class="btn" href="#learn">Start Exploring</a>
+</section>
+</main>
+
+<footer>
+  <p>© 2026 Future Mindset. Learn. Adapt. Build.</p>
+  <p>Think beyond today. Build for tomorrow.</p>
+</footer>
+
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./service-worker.js")
+      .catch(error => console.error("Service Worker error:", error));
+  });
+}
+</script>
+</body>
+</html>
