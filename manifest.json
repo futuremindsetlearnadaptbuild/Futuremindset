@@ -1,10 +1,20 @@
+
 {
   "name": "Future Mindset",
   "short_name": "Future Mindset",
   "description": "Learn. Adapt. Build. Understand technology and prepare for tomorrow.",
   "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#07111f",
   "theme_color": "#07111f",
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
 }
